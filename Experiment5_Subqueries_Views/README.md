@@ -59,6 +59,7 @@ where grade = (
 
 **Output:**
 
+![image](https://github.com/user-attachments/assets/4bc6eef7-8d11-4fbe-bc8b-669f87e16601)
 
 
 **Question 2**
@@ -166,6 +167,7 @@ where Address='Delhi';
 ```
 
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/ff9a2410-e03a-48f9-b2b6-53cdcb80a22a)
 
 
@@ -237,6 +239,7 @@ where age<30;
 ```
 
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/f102d616-333f-4d99-bcf2-7fabf289b2c3)
 
 **Question 7**
