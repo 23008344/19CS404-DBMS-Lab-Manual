@@ -40,6 +40,9 @@ DROP VIEW view_name;
 ```
 Write a SQL query that retrieve all the columns from the table "Grades", where the grade is equal to the maximum grade achieved in each subject.
 Sample table: GRADES (attributes: student_id, student_name, subject, grade)
+```
+![image](https://github.com/user-attachments/assets/ac986928-a273-4ea6-9365-e1b8c8f9a791)
+```
 For example:
 Result
 student_id       student_name     subject          grade
@@ -247,6 +250,9 @@ where age<30;
 ```Write a SQL query to List departments with names longer than the average length
 
 Departments Table (attributes: department_id, department_name)
+```
+![image](https://github.com/user-attachments/assets/30594edb-4974-4adb-ad85-52601d305a3a)
+```
 For example:
 
 Result
