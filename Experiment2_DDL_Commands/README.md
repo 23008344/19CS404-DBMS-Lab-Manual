@@ -105,15 +105,39 @@ CREATE TABLE Table_Name (
 
 **Question 1**
 --
--- Paste Question 1 here
+Create a new table named orders with the following specifications:
+ord_id as TEXT with a length of 4.
+item_id as TEXT.
+ord_date as DATE.
+ord_qty as INTEGER.
+cost as INTEGER.
+The primary key is a composite key consisting of item_id and ord_date.
+ord_id and item_id should not accept NULL
+For example:
+
+Test	Result
+INSERT INTO orders (ord_id, item_id, ord_date, ord_qty, cost) VALUES ('O001', 'I001', '2023-08-01', 10, 100);
+SELECT * FROM orders;
+ord_id      item_id     ord_date    ord_qty     cost
+----------  ----------  ----------  ----------  ----------
+O001        I001        2023-08-01  10          100
+
 
 ```sql
--- Paste your SQL code below for Question 1
+CREATE TABLE orders(
+     ord_id  TEXT NOT NULL CHECK(LENGTH(ord_id)=4),
+     item_id  TEXT NOT NULL,
+     ord_date DATE,
+     ord_qty  INTEGER,
+     cost  INTEGER,
+     primary key(item_id,ord_date)
+);
 ```
 
 **Output:**
 
-![Output1](output.png)
+![image](https://github.com/user-attachments/assets/e786287e-d842-4991-9c0d-21d5a3448cd9)
+
 
 **Question 2**
 ---
