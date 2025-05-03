@@ -40,7 +40,6 @@ HAVING condition;
 ```
 What is the average dosage prescribed for each medication?
 Sample tablePrescriptions Table
-![image](https://github.com/user-attachments/assets/b969cb4d-d682-469c-85a4-cb36069453f9)
 For example:
 Result
 Medication     AvgDosage
@@ -245,7 +244,6 @@ from orders;
 ```
 Write the SQL query that achieves the grouping of data by city, calculates the total income for each city, and includes only those cities where the total income sum is greater than 200,000.
 Sample table: employee
-![image](https://github.com/user-attachments/assets/277dec18-612c-4d37-8f0a-71457a99e7dd)
 For example:
 Result
 city        Income
