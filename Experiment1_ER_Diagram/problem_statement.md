@@ -59,12 +59,19 @@ University Database
 ### student
 
 1.StudentID(primary key)
-2.admission no
+
+2.admission no 
+
 3.name
+
 4.DOB
+
 5.gender
+
 6.Email
+
 7.phone
+
 8.address
 
 ### Course
