@@ -247,14 +247,13 @@ where age<30;
 
 **Question 7**
 
-```Write a SQL query to List departments with names longer than the average length
-
+```
+Write a SQL query to List departments with names longer than the average length
 Departments Table (attributes: department_id, department_name)
 ```
 ![image](https://github.com/user-attachments/assets/30594edb-4974-4adb-ad85-52601d305a3a)
 ```
 For example:
-
 Result
 depar  department_name
 -----  ---------------
