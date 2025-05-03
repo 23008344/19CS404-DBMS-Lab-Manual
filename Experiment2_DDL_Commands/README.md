@@ -105,7 +105,7 @@ CREATE TABLE Table_Name (
 
 **Question 1**
 --
-```
+
 Create a new table named orders with the following specifications:
 ord_id as TEXT with a length of 4.
 item_id as TEXT.
@@ -123,7 +123,7 @@ ord_id      item_id     ord_date    ord_qty     cost
 ----------  ----------  ----------  ----------  ----------
 O001        I001        2023-08-01  10          100
 
-```
+
 ```sql
 CREATE TABLE orders(
      ord_id  TEXT NOT NULL CHECK(LENGTH(ord_id)=4),
