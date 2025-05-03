@@ -51,11 +51,12 @@ Design a database for patient management, appointments, medical records, and bil
 University Database
 
 ## ER Diagram:
-![ER Diagram](![image](https://github.com/user-attachments/assets/55a0bd78-e1b2-487f-9f8b-17e2eab31b65)
+![image](https://github.com/user-attachments/assets/f05f19b5-3594-4843-9086-1d6f816da36a)
+
 
 ## Entities and Attributes:
 
-# student
+### student
 
 1.StudentID(primary key)
 2.admission no
@@ -66,14 +67,14 @@ University Database
 7.phone
 8.address
 
-# Course
+### Course
 
 1.course ID(primary key)
 2.course name
 3.credits
 4.department
 
-# Instructor
+### Instructor
 
 1.Instructor ID(primary key)
 2.name
@@ -81,13 +82,13 @@ University Database
 4.phone no
 5.deparment
 
-# Deparment
+### Deparment
 
 1.Deparment ID(primary key)
 2.HOD
 3.Department name
 
-# Class
+### Class
 
 1.class ID(primary key)
 2.Semester
