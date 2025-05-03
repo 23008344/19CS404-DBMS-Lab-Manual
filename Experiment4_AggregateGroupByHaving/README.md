@@ -64,6 +64,7 @@ group by Medication;
 ```
 
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/25c11a97-d608-40bd-b3ce-100aaa680b28)
 
 
