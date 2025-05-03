@@ -322,8 +322,14 @@ Write the SQL query that achieves the selection of the date of birth from the "p
 
 PATIENTS TABLE:
 ATTRIBUTES - patient_id, first_name, last_name, date_of_birth, admission_date, discharge_date, doctor_id
+```
+![image](https://github.com/user-attachments/assets/014599e4-e633-436b-816f-63d7c768ada6)
+```
 APPOINTMENTS TABLE:
 ATTRIBUTES - appointment_id, patient_id, doctor_id, appointment_date
+```
+![image](https://github.com/user-attachments/assets/164ef898-93af-4991-87ac-ba179235c3fa)
+```
 For example:
 Result
 date_of_birth    appointment_id   patient_id       doctor_id        appointment_date
@@ -346,7 +352,13 @@ where p.first_name="Alice";
 ```
 Write the SQL query that achieves the selection of the "name" column from the "salesman" table (aliased as "s"), the "cust_name," "city," "grade," and "salesman_id" columns from the "customer" table (aliased as "c"), with a left join on the "salesman_id" column and a condition filtering for salesman_id values that have more than one associated customer.
 Customer Table:
+```
+![image](https://github.com/user-attachments/assets/17f37616-761b-4969-8743-be3cf64c962f)
+```
 Salesmen Table:
+```
+![image](https://github.com/user-attachments/assets/1a3bec8f-13ea-42b6-ab9a-29c23094ddda)
+```
 For example:
 Result
 name             cust_name        city             grade            salesman_id
@@ -453,8 +465,14 @@ ORDER BY
 Write the SQL query that achieves the selection of all columns from the "nurses" table (aliased as "n"), with an inner join on the "department_id" column and a condition filtering for nurses in the 'Pediatrics' department.
 NURSES TABLE:
 ATTRIBUTES - nurse_id, first_name, last_name, department_id
+```
+![image](https://github.com/user-attachments/assets/658dcd6e-ce91-49c6-9c34-2239fabcd7d3)
+```
 DEPARTMENTS TABLE:
 ATTRIBUTES - department_id, department_name
+```
+![image](https://github.com/user-attachments/assets/b32629d7-9984-47ef-a570-748e80dadd03)
+```
 For example:
 Result
 nurse_id         first_name       last_name        department_id
@@ -482,7 +500,13 @@ WHERE
 ```
 Write the SQL query that achieves the selection of the "cust_name" and "city" columns from the "customer" table (aliased as "c"), and the "ord_no," "ord_date," and "purch_amt" columns from the "orders" table (aliased as "o"), with a left join on the "customer_id" column and a condition filtering for customers in the city 'London'.
 CUSTOMER TABLE:
+```
+![image](https://github.com/user-attachments/assets/915ed81d-1323-4836-bce9-4f5d7742a2e9)
+```
 ORDERS TABLE:
+```
+![image](https://github.com/user-attachments/assets/cc6c8504-6da7-4e0f-9cec-fa7b426a1c2f)
+```
 For example:
 Result
 cust_name        city             ord_no           ord_date         purch_amt
