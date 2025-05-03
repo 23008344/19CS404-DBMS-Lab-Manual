@@ -77,29 +77,41 @@ University Database
 ### Course
 
 1.course ID(primary key)
+
 2.course name
+
 3.credits
+
 4.department
 
 ### Instructor
 
 1.Instructor ID(primary key)
+
 2.name
+
 3.Email
+
 4.phone no
+
 5.deparment
 
 ### Deparment
 
 1.Deparment ID(primary key)
+
 2.HOD
+
 3.Department name
 
 ### Class
 
 1.class ID(primary key)
+
 2.Semester
+
 3.Year
+
 4.Schedule
 
 
@@ -108,23 +120,29 @@ University Database
 Student-Course
 
 1. "Entroll" Relationship
+   
 2. A student can entroll many course.
 
 Course-Instructor
 
 1. "Faculty" Relationship
+   
 2. A Instructor can teach one course
 
 Course-Department
 
 1."Offered By" Relationship
+
 2.A course isoffered by one department.
+
 3.A department can offer multiple courses.
 
 Class- Course
 
  1. "Teaches" Relationship
+  
  2. A class is based on one course.
+  
  3. A course can have multiple classes
 
 
